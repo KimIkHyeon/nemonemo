@@ -1,9 +1,15 @@
 #include <iostream>
-//#include "nemo.hpp"
+#include "nemo.hpp"
 
-int main()
-{
+using namespace std;
 
 
+
+int main() {
+	
+	Nemologic nemo;
+	
+	nemo.printMatrix();
+    
     return 0;
 }
