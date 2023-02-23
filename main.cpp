@@ -9,7 +9,9 @@ int main() {
 	
 	Nemologic nemo;
 	
-	nemo.printMatrix();
+	nemo.readAspect();
+    
+    nemo.printMatrix();
     
     return 0;
 }
