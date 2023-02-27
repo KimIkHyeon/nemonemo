@@ -3,7 +3,9 @@
 
 int main()
 {
+	Nemologic nemo;
 
+	nemo.checkFullMap();
 
     return 0;
 }

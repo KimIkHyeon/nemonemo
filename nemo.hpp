@@ -8,18 +8,28 @@
 #include <string>
 #include <vector>
 
-#define space 10000
+#define SP 10000
 #define NO 10001
 #define OK 10002
 
+using namespace std;
+
+const string writefilepath("test.txt");
+const string readfilepath("input.txt");
 
 class Nemologic{
 private:
     int size;
-	vector<vector<int>> map;
+	vector< vector<int> > map;
 
 public:
     Nemologic();
+	void printMap();
+	void checkFullMap();
+
+private:
+	vector< vector<int> > initMap();
+	void printFullMap();
 };
 
 #endif
